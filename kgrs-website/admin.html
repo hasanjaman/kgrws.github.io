@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin | Kumbhira Green Rural Welfare Society</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body class="admin-page">
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">KG</span>
+        <span>
+          <strong>KGRWS Admin</strong>
+          <small>Static website editor</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Admin navigation">
+        <a href="index.html">View Site</a>
+      </nav>
+    </header>
+
+    <main class="admin-shell">
+      <section class="admin-intro">
+        <p class="eyebrow">No-server Admin Panel</p>
+        <h1>Update content, preview locally, then export for GoDaddy</h1>
+        <p>This editor runs fully in the browser. Save keeps a private preview on this computer. Export downloads `site-data.json`; upload that file to `assets/data/site-data.json` on GoDaddy to publish text changes.</p>
+      </section>
+
+      <section class="admin-layout">
+        <form class="editor-panel" id="content-form">
+          <h2>Website Details</h2>
+          <label>Organization Name <input name="organization.name" required></label>
+          <label>Short Name <input name="organization.shortName"></label>
+          <label>Registration <input name="organization.registration"></label>
+          <label>Tagline <input name="organization.tagline"></label>
+          <label>Hero Title <textarea name="hero.title" rows="2"></textarea></label>
+          <label>Hero Text <textarea name="hero.text" rows="4"></textarea></label>
+          <label>Vision <textarea name="vision" rows="5"></textarea></label>
+          <label>Mission <textarea name="mission" rows="7"></textarea></label>
+          <label>Status <textarea name="status" rows="5"></textarea></label>
+          <label>Address <textarea name="contact.address" rows="4"></textarea></label>
+          <label>Phone <input name="contact.phone"></label>
+          <label>Email <input name="contact.email" type="email"></label>
+
+          <h2>Programmes</h2>
+          <div id="programme-editor"></div>
+          <button class="button secondary" type="button" id="add-programme">Add Programme</button>
+
+          <h2>Gallery</h2>
+          <p class="help-text">For a fully static site, uploaded images are stored in your browser preview. To publish new photos, also upload the image files into `assets/images` and use that path here.</p>
+          <div id="gallery-editor"></div>
+          <button class="button secondary" type="button" id="add-gallery">Add Gallery Image</button>
+
+          <div class="admin-actions">
+            <button class="button primary" type="submit">Save Preview</button>
+            <button class="button secondary" type="button" id="export-data">Export JSON</button>
+            <label class="button secondary import-button">Import JSON <input id="import-data" type="file" accept="application/json"></label>
+            <button class="button subtle" type="button" id="reset-data">Reset Preview</button>
+          </div>
+          <p class="status" id="admin-status" role="status"></p>
+        </form>
+
+        <aside class="preview-panel">
+          <h2>Publishing Steps</h2>
+          <ol>
+            <li>Make text and programme changes here.</li>
+            <li>Use Save Preview to check this browser.</li>
+            <li>Use Export JSON.</li>
+            <li>Upload the downloaded file to `assets/data/site-data.json` in GoDaddy File Manager.</li>
+            <li>For new photos, upload the image file to `assets/images` and keep the matching path in Gallery.</li>
+          </ol>
+          <h2>Current Preview</h2>
+          <iframe id="site-preview" title="Website preview" src="index.html"></iframe>
+        </aside>
+      </section>
+    </main>
+
+    <script src="assets/js/admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+{
+  "organization": {
+    "name": "Kumbhira Green Rural Welfare Society",
+    "shortName": "KGRWS",
+    "registration": "Registered in 2015 under West Bengal Societies Registration Act, 1961",
+    "type": "Non Government Organization, voluntary service oriented charitable society",
+    "tagline": "Hope, dignity and sustainable livelihoods for rural and urban communities."
+  },
+  "contact": {
+    "address": "Vill- Kumbhira, P.O.- Sabdalpur, P.S.- Baishnab Nagar, Dist.- Malda, PIN- 732201, West Bengal",
+    "phone": "9734876647",
+    "email": "kgrw.society@gmail.com"
+  },
+  "hero": {
+    "title": "Building self-reliant villages with skill, awareness and human values",
+    "text": "Kumbhira Green Rural Welfare Society works with poor and needy communities through capacity building, education, health awareness, cultural development and eco-friendly livelihood programmes.",
+    "image": "assets/images/community-meeting.jpeg"
+  },
+  "vision": "Our vision is to give hope and help to the poor section of society through capacity building and skill development, without creating environmental pollution and while maintaining human values.",
+  "mission": "Our mission is to create self-reliant villages without disturbing eco-harmony and cultural heritage by making people aware of economic, social and socio-political issues affecting village life. The organization works to remove poverty, unawareness and illiteracy by enriching knowledge and upgrading skills for secure sustainable livelihoods in rural and urban areas.",
+  "status": "Kumbhira Green Rural Welfare Society is a non-profit, non-government, voluntary service oriented charitable organization. It works for poor and needy people without distinction of caste, colour, creed or religion.",
+  "programmes": [
+    {
+      "title": "Educational Development",
+      "text": "Learning support, awareness sessions and book distribution for poor students."
+    },
+    {
+      "title": "Women Health Awareness",
+      "text": "Community meetings and health awareness programmes for women and families."
+    },
+    {
+      "title": "Jute Handicraft Training",
+      "text": "Skill development programmes that help women and youth build livelihood opportunities."
+    },
+    {
+      "title": "Cultural Programmes",
+      "text": "Activities that preserve local heritage, community values and social participation."
+    },
+    {
+      "title": "Environmental Programmes",
+      "text": "Eco-harmony awareness and community action for a cleaner, greener village life."
+    },
+    {
+      "title": "Social Awareness",
+      "text": "Awareness on economic, social and socio-political issues affecting rural life."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "assets/images/community-meeting.jpeg",
+      "alt": "Community development meeting"
+    },
+    {
+      "src": "assets/images/women-jute-training-group.jpeg",
+      "alt": "Women participants in jute training programme"
+    },
+    {
+      "src": "assets/images/village-awareness-meeting.jpeg",
+      "alt": "Village awareness meeting"
+    },
+    {
+      "src": "assets/images/education-session.jpeg",
+      "alt": "Educational development session"
+    },
+    {
+      "src": "assets/images/jute-sewing-training.jpeg",
+      "alt": "Jute sewing and handicraft training"
+    },
+    {
+      "src": "assets/images/training-inauguration.jpeg",
+      "alt": "Training programme inauguration"
+    },
+    {
+      "src": "assets/images/book-distribution.jpeg",
+      "alt": "Book distribution for student"
+    },
+    {
+      "src": "assets/images/public-programme.jpeg",
+      "alt": "Public community programme"
+    }
+  ]
+}
